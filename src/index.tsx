@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { render } from "react-dom";
+import WelcomeApp from "./welcomeApp";
 
 import "./styles.css";
 
