@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { render } from "react-dom";
-import WelcomeApp from "./welcomeApp";
+//import WelcomeApp from "./welcomeApp";
+import LinkExample from "./LinkExample";
 
 import "./styles.css";
 
@@ -26,4 +27,4 @@ function App() {
 }
 
 const rootElement = document.getElementById("root");
-render(<App />, rootElement);
+render(<LinkExample />, rootElement);
