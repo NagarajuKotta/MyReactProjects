@@ -7,7 +7,7 @@ import {
   Switch
 } from "react-router-dom";
 import "./styles.css";
-import logo from "./img/ust-logo.png";
+import logo from "./img/ust-global-vector-logo.png";
 
 export default class LinkExample extends React.Component {
   render() {

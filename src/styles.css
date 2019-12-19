@@ -64,6 +64,6 @@
   -moz-animation:spin 4s linear infinite;
   animation:spin 4s linear infinite;
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotateY(90deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotateY(90deg); } }
-@keyframes spin { 100% { -webkit-transform: rotateY(90deg); transform:rotateY(90deg); } }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(60deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(60deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(60deg); transform:rotateY(60deg); } }

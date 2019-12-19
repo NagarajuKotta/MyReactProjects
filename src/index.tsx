@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { render } from "react-dom";
 //import WelcomeApp from "./welcomeApp";
-import LinkExample from "./LinkExample";
+//import LinkExample from "./LinkExample";
+import FormHandling from "./FormHandling";
 
 import "./styles.css";
 
@@ -27,4 +28,4 @@ function App() {
 }
 
 const rootElement = document.getElementById("root");
-render(<LinkExample />, rootElement);
+render(<FormHandling />, rootElement);
